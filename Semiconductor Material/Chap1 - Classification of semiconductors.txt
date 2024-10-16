@@ -1,0 +1,89 @@
+Intrinsic Semiconductors
+	不含任何杂质的纯净半导体
+
+	特点
+		纯净性，载流子完全由热激发或光激发
+		
+		载流子浓度相等，自由电子浓度与空穴浓度相等
+		
+		Fermi Level
+			固有半导体的费米能级位于导带与价带顶之间的中心位置
+			费米能级的对称性表示电子和空穴的数量相同
+			
+	导电特性
+		固有半导体导电性很低
+		导电性随温度升高而增加
+
+Doped Semiconductors
+	向固有半导体中引入参杂剂来改变载流子浓度，从而提高导电性	
+	
+	n型半导体
+		参入五价元素(P,As,Sb),比基底元素多一个价电子，成为Doner，向晶体中引入额外的自由电子
+
+		费米能级
+			n型半导体中，费米能级接近导带底部
+	p型半导体
+		参入三价元素(B,Ga,Al)，比基底元素少一个价电子，成为Acceptor，引入额外的空穴
+
+		费米能级
+			在p型半导体中，费米能级接近价带顶
+
+	参杂的影响
+		提高了导电性
+		
+Compound Semiconductors
+	由多种不同元素化合而成的半导体材料
+	
+	常见的化合物半导体
+		III-V族化合物
+			GaAs InP GaN InGaAsP
+			由III族元素（In,Ga），与V族元素（P,As）组成
+		II-VI族化合物
+			ZnS CdSe HgTe
+			由II族元素（Zn），与VI族元素（S）组成
+
+	特点
+		Direct Bandgap
+			导带底和价带顶完全重合
+			许多化合物半导体具有直接能隙结构
+		高电子迁移率
+			电子移动速度更快
+		多种能带结构
+		
+Wide Bandgap Semiconductors
+	具有较大禁带宽度的半导体材料
+	
+	常见的宽禁带半导体
+		SiC
+		GaN
+		ZnO
+		Diamond
+	宽禁带半导体的优点
+		High Breakdown Field
+		High Thermal Stability
+		High Frequency Performance
+			高电子迁移率
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

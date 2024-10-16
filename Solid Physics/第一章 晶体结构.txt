@@ -1,0 +1,184 @@
+晶体的结合
+	晶体结合的基本类型
+		离子晶体
+			由电负性相差较大的两种元素的原子结合而成，通过库仑相互作用结合成晶体
+		共价晶体
+			通过共价键结合而成的晶体，原子之间的共价键结是依靠相邻原子电子云的重叠而形成共用电子对
+		金属晶体
+			由金属原子结合而成，通过公有化电子与带正电的离子实之间的库仑相互作用将这些带正电的离子实结合起来
+		分子晶体
+			分子之间依靠Van der Waals力而结合成晶体
+		氢键晶体
+			由氢原子与其他电负性较大的原子或原子团而形成
+	
+	晶体结合力和结合能
+		晶体结合力
+			主要来源于原子核、电子之间的Colomb作用
+		结合能（内聚能）
+			0K时把晶体分解为相距无限远、静止的粒子所需要的能量
+	
+			晶体结合能的计算
+				离子晶体的结合能
+					可以通过计算正负离子间的相互作用能来估算
+				分子晶体的结合能
+					通常采用Lennard-Jones势来描述分子间的相互作用，并计算结合能
+
+		晶体结合的规律性
+			电负性
+				用来综合标志原子得失电子能力的物理量
+				决定晶体中原子的结合方式
+			离子半径
+				在晶体的生长和材料制备过程中，离子半径是一个重要的物理量
+		晶体结合的物理意义
+			晶体的稳定性
+				晶体的结合能越大，晶体越稳定
+			晶体性质
+				晶体的结合方式直接影响其物理化学性质，如电导性、热导性、硬度等
+	
+	晶体的弹性性质
+		弹性模量
+			晶体在受到外力作用时，其形变与应力之间的关系
+		体弹性模量
+			与晶体的压缩系数相关，反映了晶体在体积变化时的弹性特性
+
+晶体的结构
+	晶体的基本特征
+		长程有序
+			晶体内部的原子、离子或分子在三维空间中呈现周期性的排列
+		均匀性
+			晶体内部的排列在各个方向上是均匀的
+		各向异性
+			晶体的不同方向上性质可能不同
+	
+	晶体的对称性
+		晶体的对称操作
+			平移
+			旋转
+			反射	镜像
+			反演	小孔成像
+		晶体的对称分类
+			根据晶体的对称性，晶体可以分为不同的晶体和空间群
+	
+	晶格和基元
+		Basis	原子团抽象为几何点
+
+		Crystal	由基元无限重复而构成
+
+		Lattice	基元组成的点阵
+			Lattice Point	Lattice上的点，也就是Basis
+			Lattice Vector(格矢)	由三个基矢量表示
+			Lattice Constants	
+				晶格立方体的边长与夹角，也可以只代表边长
+				(a、b、c)
+				(α、β、γ)
+			
+		Unit Cell	描述Lattice周期性结构的最小单元，基元的集合
+			
+		Primitive Unit Cell	体积最小的晶胞
+			可以是一个点，也可以是一个四点矩阵，因为一个矩阵的四个端点分别要和四个相邻矩阵共享
+		conventional unit cell 最能体现对称性的晶胞
+
+		Crystal Face
+			晶体的外表面，有特定的取向
+		Crystal Edge
+			连接相邻晶面的线
+
+		晶体的表面和界面
+			晶体表面
+				与外部环境接触的边界，与内部排列有所不同
+			晶体界面
+				不同晶体或相同晶体不同取向之间的接触面
+
+		Miller Indicies
+			Miller Indices for Directions
+				[uvw],负数用上标表示
+					在立方晶系中，所有[100][010][001]晶向由于晶体的高度对称性，可视为等价晶向
+				
+				<>	A set of equivalent directions
+				
+			Miller Indices for Planes
+				(hkl)
+				计算步骤
+					选择原点：选择晶体中的一个对称点
+					找出晶面与各主轴之间的截距
+					取截距的倒数
+					化为最小整数比
+		
+				{}	A set of equivalent planes
+
+	7 Crystal System 14 Bravais Lattices
+		Cubic System
+			a=b=c	α=β=γ=90 
+			
+			Simple Cubic
+			Body-Centered Cubic
+			Face-Centered Cubic
+			
+		Tetragonal System
+			a=b≠c	α=β=γ=90 
+
+			Simple Tetragonal
+			Body-Centered Tetragonal
+			
+		Orthorhombic System
+			a≠b≠c	α=β=γ=90 
+			
+			Simple Orthorhombic
+			Base-Centered Orthorhombic
+			Body-Centered Orthorhombic
+			Face-Centered Orthorhombic
+			
+		Hexagonal System
+			a=b≠c	α=β=90 γ=120
+			
+			Simple Hexagonal
+			Hexagonal Close-Packed
+			
+		Rhombohedral System
+			a=b=c	α=β=γ≠90
+
+	晶体的缺陷
+		Point Defects
+			Vacancy
+			Interstitial Atom
+			Substitutional Atom
+		线缺陷
+			Edge Dislocation
+			Screw Dislocation
+			Mixed Dislocation
+		面缺陷
+			Grain Boundaries
+			Twin Boundaries
+			Stacking Faults
+		体缺陷
+			Void
+			Second Phase Particles
+
+
+倒易点阵与布里渊区
+	倒易点阵
+		定义与基本概念
+			倒易点阵是由晶体点阵(正点阵)通过傅里叶变换得到，它是描述晶体周期性结构的重要工具
+
+			倒易点阵的基矢b与正点阵的基矢a的关系
+			倒易点阵的格矢G
+
+		倒易点阵的物理意义
+			用于描述晶体的X射线衍射现象，倒易点阵每个点对应于一个可能的衍射方向
+			
+			倒易点阵在分析能带结构和晶体振动模式时很重要
+
+		倒易点阵的构造
+			对于一个三维晶体，其倒易点阵的基矢可以通过正点阵的基矢通过叉乘得到
+		
+	布里渊区
+		定义与基本概念
+			布里渊区是倒易点阵的维格纳-塞茨原胞
+			以倒易点阵中的一个点为原点，做所有倒格矢的垂直平分面，这些平面把倒易空间分成许多区域
+			
+		布里渊区的物理意义
+			波矢k的值被限制在第一布里渊区内，这样可以避免重复描述周期性结构
+
+		布里渊区的高对称点
+			
+	

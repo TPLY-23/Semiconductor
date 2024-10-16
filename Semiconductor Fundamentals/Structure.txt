@@ -1,0 +1,33 @@
+Fundamental of Semiconductor
+	Material properties and doping
+		Energy levels to energy bands
+		Crystalline, polycrystalline, and amorphous semiconductors
+		Miller indices
+		Properties of common semiconductors
+		Free carriers in semiconductors
+		Doping
+	Rudiments of quantum Mechanics
+		The Wave Equation
+		Quantum confinement
+		Quantum tunneling and reflection
+		Electron waves in crystals
+		Density of states
+	Equilibrium carrier concentrations
+		Fermi function
+		Fermi-Dirac Integrals
+		Carrier concentration & Fermi level
+		Carrier concentration & Doping density
+		Equilibrium carrier concentration
+	Carrier transport, generation and recombination
+		The Landauer Approach
+		Recombination and Generation - Nanos
+		Drift-Diffusion Equation
+		Carrier Recombination
+		Carrier Generation
+	The semiconductor equations
+		Mathematical Formulation
+		Energy Band Diagrams
+		Quasi-Fermi Levels
+		Minority Carrier Diffusion Equation
+
+
